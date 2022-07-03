@@ -23,8 +23,6 @@ while flag:
     time.sleep(0.1)
     screen.update()
     snake.move()
-
-
     # Detect collision with food
     if snake.head.distance(food) < 15:
         food.refresh()
